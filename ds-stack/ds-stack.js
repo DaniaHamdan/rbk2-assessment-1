@@ -1,14 +1,14 @@
 
  var Stack = function() {
-  var stackMethod = {};
-  var storage = [];
-  stackMethod.add = function(value) {
-  	storage.push(value)
-  	return storage;
+  var stackMethods = {};
+  var arr = [];
+  stackMethods.add = function(value) {
+  	arr.push(value)
+  	return arr;
   };
- stackMethod.remove = function() {
-  	storage.pop()
-  	return storage
+ stackMethods.remove = function() {
+  	arr.pop()
+  	return arr
   };
   return stackMethod
 };
