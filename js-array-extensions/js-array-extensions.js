@@ -9,5 +9,5 @@ usefulFunctions.first=function(){
 	return this.arr[0]
 };
 usefulFunctions.last=function(){
-	return this.arr[arr.length-1]
+	return this.arr[this.arr.length-1]
 }
